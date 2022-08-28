@@ -27,7 +27,7 @@ function fadeOut(){
 window.onload = fadeOut;
 
 
-document.querySelector('.btn').onclick =()=>{
+document.querySelector('.add_to_cart').onclick =()=>{
    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "add_to_cart",
